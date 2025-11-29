@@ -1,12 +1,8 @@
-# 🔐 Password Manager (Python)
-
-[![CI](https://img.shields.io/github/actions/workflow/status/irmita-dev/password-manager/ci.yml?branch=main&label=CI&logo=github)](https://github.com/irmita-dev/password-manager/actions)
-![Tests](https://img.shields.io/badge/tests-pytest-brightgreen)
-![Python](https://img.shields.io/badge/python-3.10%2B-blue)
-![License](https://img.shields.io/badge/license-MIT-lightgrey)
+<h1 align="center">🔐 Password Manager (Python)</h1>
 
 <p align="center">
-  <img src="assets/banner.png" alt="Password Manager banner" width="80%">
+  <img src="https://img.shields.io/badge/tests-pytest-brightgreen" alt="Tests">
+  <img src="https://img.shields.io/badge/python-3.10%2B-blue" alt="Python">
 </p>
 
 A secure and fully tested **Password Manager** written in Python.  
