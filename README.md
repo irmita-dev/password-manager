@@ -5,28 +5,31 @@
   <img src="https://img.shields.io/badge/python-3.10%2B-blue" alt="Python">
 </p>
 
+<p align="center">
 A secure and fully tested **Password Manager** written in Python.  
 Includes **AES-level encryption**, **encrypted JSON storage**, **Clean Architecture**, **TDD**, CLI and GUI (Tkinter).  
 Portfolio project demonstrating real-world Python skills.
+</p>
 
----
+<hr/>
 
-## 🚀 Features
+<h2 align="center">🚀 Features</h2>
 
-• Strong AES-based Fernet encryption
-• Encrypted JSON vault
-• Clean Architecture (crypto → storage → manager → interfaces)
-• Full pytest test suite
-• CLI interface
-• GUI (Tkinter)
+<p align="left">
+• Strong AES-based Fernet encryption<br>
+• Encrypted JSON vault<br>
+• Clean Architecture (crypto → storage → manager → interfaces)<br>
+• Full pytest test suite<br>
+• CLI interface<br>
+• GUI (Tkinter)<br>
 • Beginner-friendly, secure, and modular
+</p>
 
+<hr/>
 
----
+<h2 align="center">📁 Project Structure</h2>
 
-📁 Project Structure
-
-password_manager/
+<pre><code>password_manager/
 │
 ├── src/
 │ ├── crypto.py # Encryption / decryption
@@ -45,90 +48,101 @@ password_manager/
 ├── passwords.json # Encrypted vault (auto-created)
 ├── requirements.txt
 └── README.md
+</code></pre>
 
+<hr/>
 
----
+<h2 align="center">🧭 Installation</h2>
 
-🧭 Installation
+<pre><code>pip install -r requirements.txt
+</code></pre>
 
-pip install -r requirements.txt
+<hr/>
 
+<h2 align="center">▶️ Usage</h2>
 
----
+<p align="center">
+<strong>CLI</strong><br><br>
+<code>python3 main.py</code>
+</p>
 
-▶️ Usage
-
-CLI
-
-python3 main.py
-
-Available actions:
-• unlock vault (enter master password)
-• add entry
-• list entries
+<p align="left">
+Available actions:<br>
+• unlock vault (enter master password)<br>
+• add entry<br>
+• list entries<br>
 • delete entry
+</p>
 
+<hr/>
 
----
+<p align="center">
+<strong>GUI</strong><br><br>
+<code>python3 gui.py</code>
+</p>
 
-GUI
-
-python3 gui.py
-
-Features:
-• Master password unlock
-• Entry table (site, username)
-• Add entry dialog
-• Delete entry dialog
+<p align="left">
+Features:<br>
+• Master password unlock<br>
+• Entry table (site, username)<br>
+• Add entry dialog<br>
+• Delete entry dialog<br>
 • Auto-refresh
+</p>
 
+<hr/>
 
----
+<h2 align="center">🔐 Security Notes</h2>
 
-🔐 Security Notes
-
-• Uses cryptography.Fernet (AES-based symmetric encryption)
-• Vault file is always encrypted
-• Master password is never stored
-• Never commit plain-text vaults
+<p align="left">
+• Uses cryptography.Fernet (AES-based symmetric encryption)<br>
+• Vault file is always encrypted<br>
+• Master password is never stored<br>
+• Never commit plain-text vaults<br>
 • Avoid storing passwords in environment variables
+</p>
 
+<hr/>
 
----
+<h2 align="center">🧪 Testing</h2>
 
-🧪 Testing
+<pre><code>python3 -m pytest -q
+</code></pre>
 
-python3 -m pytest -q
-
-Expected:
+<p align="center">
+Expected:<br>
 ✓ All tests pass
+</p>
 
+<hr/>
 
----
+<h2 align="center">✨ Roadmap</h2>
 
-✨ Roadmap
-
-• Search bar in GUI
-• Copy-to-clipboard
-• Sorting & filtering
-• Export / import (CSV / encrypted)
-• Flask/FastAPI web version
-• Password generator
+<p align="left">
+• Search bar in GUI<br>
+• Copy-to-clipboard<br>
+• Sorting & filtering<br>
+• Export / import (CSV / encrypted)<br>
+• Flask/FastAPI web version<br>
+• Password generator<br>
 • GUI dark mode
+</p>
 
+<hr/>
 
----
+<h2 align="center">👩‍💻 Author</h2>
 
-👩‍💻 Author
-
-Irmita Dev
-Python Developer • TDD • Clean Architecture
+<p align="left">
+Irmita Dev<br>
+Python Developer • TDD • Clean Architecture<br>
 Always learning & building.
+</p>
 
+<hr/>
 
----
+<h2 align="center">✉️ Contact</h2>
 
-✉️ Contact
-
-GitHub: https://github.com/irmita-dev
+<p align="center">
+GitHub: https://github.com/irmita-dev<br>
 Email: ljubijankicirma3@gmail.com
+</p>
