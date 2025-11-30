@@ -1,3 +1,8 @@
+<!-- Banner -->
+<p align="center">
+<img src="https://raw.githubusercontent.com/irmita-dev/password-manager/refs/heads/main/password_manager_irmita_dev.png" width="65%" alt="Irma's GitHub banner password manager">
+</p>
+
 <h1 align="center">🔐 Password Manager (Python)</h1>
 
 <p align="center">
